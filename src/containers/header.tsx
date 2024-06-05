@@ -2,7 +2,7 @@ const Header = () => {
   return (
     <div className="ui fixed menu">
       <div className="ui container center">
-        <h2>ReactShop</h2>
+        <h2>ReactShop - Redux</h2>
       </div>
     </div>
   );

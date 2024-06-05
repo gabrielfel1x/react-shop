@@ -8,9 +8,15 @@ export const setProducts = (products: Product[]) => {
   };
 };
 
-export const selectedProduct = (products: Product[]) => {
+export const selectedProduct = (product: Product) => {
   return {
-    type: ActionTypes.SELECTED_PRODUCTS,
-    payload: products,
+    type: ActionTypes.SELECTED_PRODUCT,
+    payload: product,
+  };
+};
+
+export const removeSelectedProduct = () => {
+  return {
+    type: ActionTypes.REMOVE_SELECTED_PRODUCT,
   };
 };
